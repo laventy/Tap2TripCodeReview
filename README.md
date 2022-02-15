@@ -25,3 +25,7 @@ The solution above is an example of an ideal situation. However, I think linear 
 
 ## Extendability
 1. The candidate uses the interface quite well so it is easy to create another instance following the interface without making any major code changes.
+2. Good division of codebase makes developers easy to navigate where they need to change.
+
+## Scalability
+1. same as Overall Solution. O(n^2) is the time complexity which may be an issue for huge list.
