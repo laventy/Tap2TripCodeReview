@@ -19,7 +19,8 @@ The solution above is an example of an ideal situation. However, I think linear 
 
 1. Strong feeling of quite well-organised and readable code. Easy to follow the logic flow due to easy-to-understand naming for functions and variables.
 2. By saying well-organised, the codebase is divided into meaningful parts. i.e. services, interfaces, constants, helpers, models etc.
-3. Get good coverage of unit testing.
+3. Use advanced Java APIs like `stream`,
+4. Get good coverage of unit testing.
 
 ## Extendability
 1. The candidate uses the interface quite well so it is easy to create another instance following the interface without making any major code changes.
