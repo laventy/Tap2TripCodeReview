@@ -13,7 +13,7 @@ Let us say if the taps are sorted by time i.e. the oldest being top in the CSV. 
 3. if the next one is `OFF` at same stop, then consider a `Cacelled Trip`. (given that can only tap-off once on a single trip)
 4. consider the third one and continue the same process...
 
-The solution above is an example of an ideal situation. However, I think linear complexity is possible.
+The solution above is an example of an ideal situation. However, I think linear complexity is possible given that the structure of tap CSV is subject to assumptions.
 
 ## Code Quality
 
